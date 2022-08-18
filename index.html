@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truncated Cone Volume Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="volumeofTruncatedConeRadio" name="variables" checked>
+  <label for="volumeofTruncatedConeRadio">Volume of Truncated Cone</label>
+
+  <input type="radio" id="smallerRadiusoftheConeRadio" name="variables" disabled>
+  <label for="smallerRadiusoftheConeRadio">Smaller Radius of the Cone</label>
+
+  <input type="radio" id="biggerRadiusoftheConeRadio" name="variables" disabled>
+  <label for="biggerRadiusoftheConeRadio">Bigger Radius of the Cone</label>
+
+  <input type="radio" id="heightoftheConeRadio" name="variables">
+  <label for="heightoftheConeRadio">Height of the Cone</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(r1) Smaller Radius of the Cone</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(r2) Bigger Radius of the Cone</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">(h) Height of the Cone</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
